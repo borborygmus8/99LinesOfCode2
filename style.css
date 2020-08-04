@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt');
+
+* {
+    font-family: 'Rock Salt', cursive;
+}
+
+::selection {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+body {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #0f0;
+}
+
+hr {
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px #fff;
+}
+
+.sing, .reload {
+    background-color: #111;
+    border: 3px solid #0f0;
+    border-radius: 10px;
+    color: #0f0;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px #0f0;
+    margin: 40px;
+    cursor: pointer;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.sing:hover, .reload:hover {
+    background-color: #222;
+    border: 3px solid #f00;
+    color: #f00;
+    box-shadow: 0 0 10px #f00;
+}
+
+.friend {
+    background-color: #111;
+    padding: 0.1rem 0 0.5rem;
+    margin-top: 2rem;
+}
+
+.friend h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
